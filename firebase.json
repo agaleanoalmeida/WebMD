@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "mdservices-mty",
+    "public": "dist/web-md",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

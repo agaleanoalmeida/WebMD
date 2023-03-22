@@ -1,0 +1,23 @@
+.main-container{
+    margin-top: 10px;
+}
+
+.img{
+
+    align-items: center;
+}
+
+@media (max-width: 768px){
+nav{
+
+    background-image: url("../../../assets/Imagenes/fondonav.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    margin-right: 2%;
+
+}
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <a class="navbar-brand" href="#" ><img src="../header/../../../assets/Imagenes/M-D-Services-black.png" width="120" height="50" class="d-inline-block align-top" alt="">
+    </a>
+      <div class="col-4">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#nosotros">Nosotros <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicios">Servicios</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['video']">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['blog']">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+      </ul>
+    </div>
+    <div class="col-4">
+     
+    </div>
+  </nav>
+</body>
+</html>

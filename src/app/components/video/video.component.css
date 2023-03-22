@@ -1,0 +1,45 @@
+.container{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container>p{
+  text-align: left;
+  display: block;
+}
+
+img {
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    animation: FadeIn 3s ease;
+  }
+
+  .foto{
+    width: 30%;
+  }
+
+  @keyframes FadeIn{
+ 
+    0% {
+  opacity: 0;
+  filter: blur(20px);
+}
+
+10%{
+  opacity: 1;
+  filter: brightness(2) blur(10px);;
+}
+  }
+
+  h1, h3{
+    text-align: center;
+  }
+  
+  .carousel-inner {
+    height: 700px;
+  }
+
